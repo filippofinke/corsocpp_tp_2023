@@ -29,5 +29,8 @@ add_executable(operators src/operators.cpp)
 add_executable(series6-exercise2 src/series6-exercise2.cpp)
 add_executable(notinherited src/notinherited.cpp)
 add_executable(virtualdestructor src/virtualdestructor.cpp)
-
-
+add_executable(final src/final.cpp)
+add_executable(deletemod src/deletemod.cpp)
+add_executable(defaultmod src/defaultmod.cpp) 
+add_executable(multipleinheritance src/multipleinheritance.cpp src/lecturer.cpp src/researcher.cpp src/employee.cpp src/lecturerResearcher.cpp)
+add_executable(casts src/casts.cpp)
